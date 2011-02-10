@@ -1,0 +1,131 @@
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-size: 75%;
+	font-family: "Myriad Pro", Lucida, sans-serif;
+	text-align: center;
+	background: #333 url(images/bodyBackground.png) repeat-x center 36px;
+	cursor: default;
+}
+
+h1 {
+	padding: 0 0 0.6em;
+	font-size: 1.6em;
+}
+
+h2 {
+	padding: 1em 0 0.6em;
+	font-size: 1.4em;
+}
+
+p {
+	padding: 0.6em 0;
+}
+
+a {
+	color: #BB6B2C;
+}
+
+h1 a, h2 a {
+	color: #333;
+}
+
+a:hover {
+	color: #776559;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-left: 10px;
+}
+
+pre {
+	margin: 1em 0;
+	padding: 0.6em 1em;
+	overflow: auto;
+	color: #333;
+	font-family: "Courier New", monospace;
+	background: #e6e6e6;
+	border: 1px solid #ddd;
+}
+
+code {
+	color: #BB6B2C;
+	font-family: "Courier New", monospace;
+}
+
+/* Classes */
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.narrow {
+	width: 120px;
+}
+
+.wide {
+	width: 250px;
+}
+
+.preamble {
+	font-weight: bold;
+}
+
+.filename {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+
+/* Specific */
+
+#container {
+	width: 600px;
+	margin: 20px auto;
+	padding: 40px 50px;
+	
+	color: #333;
+	font-size: 1.2em;
+	text-align: left;
+	
+	background-color: #EEE;
+	
+}
+
+#header {
+	height: 47px;
+	
+	background: url(images/headerBackground.png) no-repeat;
+}
+
+#footer {
+	height: 30px;
+	overflow: hidden;
+	
+	text-align: right;
+	
+	border-top: 1px solid #DBDBDB;
+}
+
+#footer a img {
+	margin: 5px 10px;
+}
+
